@@ -1,0 +1,82 @@
+/*CSS for menu bar*/
+/*Makes the menu bar background*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F06543;
+  }
+  
+  
+  
+  
+  /*Controls text for menu*/
+  ul a {
+      float: left;
+    display: block;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover:not(.active) {
+    background-color: #F09D51;
+  }
+  .active {
+    background-color: #F09D51;
+  }
+  /*text Xolair*/
+  .Xo {
+    float: left;
+    width: 16%;
+    height: 16%;
+    padding-right: 2.5%;
+  }
+  
+#lung {
+    float: left;
+    padding-right: 1.5%;
+}
+
+#action {
+    display: block;
+    margin: auto;
+}
+
+.product img{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.link:hover{
+    background-color: #E8E9EB;
+  }
+
+  .Xotext:hover{
+    text-shadow: 2px 2px #F06543;
+  }
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .col-img {
+      width: 70%;
+      height: 70%;
+  }
